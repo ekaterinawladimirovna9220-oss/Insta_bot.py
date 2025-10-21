@@ -23,7 +23,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Bot
-      run: python bot.py
+      run: python main.py
       env:
         USERNAME: ${{ secrets.USERNAME }}
         PASSWORD: ${{ secrets.PASSWORD }}
